@@ -1,0 +1,36 @@
+#about .about-content .picture{
+    display: none;
+}
+
+#about .about-content {
+    padding-top: 1.5rem;
+}
+
+#about .about-content .about-text{
+    width: 100%;
+    align-items: center;
+}
+
+#about{
+    height: 37vh;
+}
+
+#main-footer{
+    height: 7vh;
+    
+}
+
+@media (max-width: 550px) {
+    #about{
+        height: auto;
+    }
+
+    #main-footer{
+        height: auto;
+        
+    }
+
+    #main-header .showcase-content .showcase-h1{
+        font-size: 5rem;
+    }
+}
